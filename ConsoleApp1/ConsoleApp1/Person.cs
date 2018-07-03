@@ -18,6 +18,7 @@ namespace CreateClass
             this.gender = gender;
         }
 
+        #region //Getter Setter
         public String Name
         {
             get
@@ -53,6 +54,7 @@ namespace CreateClass
                 this.gender = value;
             }
         }
+        #endregion
 
         public override String ToString()
         {
