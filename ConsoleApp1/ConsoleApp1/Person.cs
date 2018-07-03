@@ -66,9 +66,17 @@ namespace CreateClass
 
             Console.WriteLine(p1.ToString());
             Console.WriteLine(p2.ToString());
-            p2.Name ="Fanni";
-            
+            p2.Name = "Fanni";
             Console.WriteLine(p2.ToString());
+
+            Room room1 = new Room(12);
+            Person p3 = new Employee("Ben", 1990, Gender.Male, 0, "Student", room1);
+            Person p4 = new Employee("vki", 1992, Gender.Female, 500000, "Milliomos", room1);
+
+            Console.WriteLine(p3.ToString());
+            Console.WriteLine(p4.ToString());
+            p4.Name = "Fanni";
+            Console.WriteLine(p4.ToString());
 
         }
     }
