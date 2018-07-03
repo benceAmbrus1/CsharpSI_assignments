@@ -25,7 +25,7 @@ namespace SortString
             Console.WriteLine("----------------------------");
             string s = string.Join(" ", words);
             Console.WriteLine(s);
-
+            Console.WriteLine(s);
         }
     }
 }
